@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name"> 下班啦 :) </string>
+    <string name="title_activity_zjm">Visionox</string>
+    <string name="rc">人才家园</string>
+    <string name="bj">北京/廊坊</string>
+    <string name="yg">云谷公寓</string>
+    <string name="xc">县城区域</string>
+    <string name="cq">厂   区</string>
+    <string name="gw">班车港湾</string>
+    <string name="clock">为维信诺贡献到这么晚，您该回去休息了</string>
+    <string name="ver">  @visionox 1.0       #随缘佛系更新,加油鸭 </string>
+    <string name="btn1">不 我还要继续工作</string>
+    <string name="btn2">算了吧 还是回去休息吧</string>
+    <string name="didi">滴滴打车</string>
+    <string name="ditu">百度地图</string>
+    <string name="fanqie">番茄出行</string>
+    <string name="lx">欢迎吐槽</string>
+    <string name="mt">美团玩乐</string>
+</resources>

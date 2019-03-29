@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/zn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/a1"
+            android:layout_width="105dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="07:45"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/a2"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/a1"
+            android:text="@string/rc"
+            android:gravity="center"
+            android:textSize="17sp" />
+        <TextView
+            android:id="@+id/a3"
+            android:layout_width="90dp"
+            android:layout_height="25dp"
+            android:text="白班"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/a2"/>
+        <ImageView
+            android:id="@+id/a4"
+            android:layout_height="10dp"
+            android:layout_width="90dp"
+            android:layout_below="@+id/a3"
+            android:layout_toRightOf="@+id/a2"
+            android:src="@mipmap/luxian"/>
+        <TextView
+            android:id="@+id/a5"
+            android:layout_width="90dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/a4"
+            android:layout_toEndOf="@+id/a2"
+            android:gravity="center"
+            android:text="上班" />
+        <TextView
+            android:id="@+id/a6"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/a3"
+            android:gravity="center"
+            android:text="@string/cq"
+            android:textSize="17sp" />
+        <TextView
+            android:id="@+id/a7"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/a6"
+            android:text="内"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+</RelativeLayout>

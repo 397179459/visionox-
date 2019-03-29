@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tucao"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="大家有好的建议都可以联系我，欢迎吐槽！有兴趣的可以加入我的团队，虽然目前只有我一个人0.0。"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/tc"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="因为只会Android开发，IOS用户告辞。"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tc1"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="用不起服务器，所以无法提供在线更新功能,对不住各位了。如果班次有不符的地方请及时反馈，也是为了给大家提供更准确的时刻表。谢谢1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tc2"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="——一位不愿透露姓名的FA工程师"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tc3"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="微信见下方"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/a2" />
+
+</LinearLayout>

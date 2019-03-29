@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/didi"
+        android:title="@string/didi" />
+    <item
+        android:id="@+id/mt"
+        android:title="@string/mt" />
+
+    <item
+        android:id="@+id/dt"
+        android:title="@string/ditu" />
+
+    <item
+        android:id="@+id/fq"
+        android:title="@string/fanqie" />
+    <item
+        android:id="@+id/lx"
+        android:title="@string/lx"/>
+
+</menu>
